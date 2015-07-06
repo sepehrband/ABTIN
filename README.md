@@ -24,4 +24,5 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 ### ABTIN
 `ABTIN(InputFolder,Mask,OutputFolder)`
 
-"**Demo.m includes above steps**"
+## Script
+"**Demo.m** includes the above steps."
