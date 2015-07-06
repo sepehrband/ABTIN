@@ -5,7 +5,7 @@ Absolute Tissue density from NODDI (ABTIN) is described here:
 >, Humman Brain Mapping, 2015. DOI: 10.1002/hbm.22872
 
 ## Implementation (in MATLAB)
-Download ABTIN's [reposiotry](https://github.com/sepehrband/ABTIN/archive/master.zip). 
+**Download ABTIN's [reposiotry](https://github.com/sepehrband/ABTIN/archive/master.zip).** No additional download is required. The only dependency is MATLAB NIFTI [toolbox](http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image), which is included in the repository.
 
 ### 1. NODDI
 In order to obtain ABTIN's measures, first the NODDI model should be fitted to the diffusion-weighted MR data.  To fit NODDI to your data, we suggest one of the following routines:
@@ -14,7 +14,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 - **AMICO:** follow the instruction [here](https://github.com/daducci/AMICO).
 
 ### 2. Setup the path
-- **Add the path to this repostitory.** The only dependency is MATLAB NIFTI [toolbox](http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image), which is included in the repository.
+- **Add the path to this repostitory.** 
 
 For example:
 
