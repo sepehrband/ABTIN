@@ -14,7 +14,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 - **AMICO:** follow the instruction [here](https://github.com/daducci/AMICO).
 
 ### 2. Setup the path
-- **Add the path to this repostitory.**
+- **Add the path to this repostitory.** The only dependency is MATLAB NIFTI [toolbox](http://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image), which is included in the repository.
 
 For example:
 
