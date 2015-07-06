@@ -4,7 +4,7 @@ Absolute Tissue density from NODDI (ABTIN) is described here:
 >*Farshid Sepehrband, Kristi A. Clark, Jeremy F.P. Ullmann, Nyoman D. Kurniawan, Gayeshika Leanage, David C. Reutens, and Zhengyi Yang*
 >, Humman Brain Mapping, 2015. DOI: 10.1002/hbm.22872
 
-## Implementation
+## Implementation (in MATLAB)
 Download ABTIN's [reposiotry](https://github.com/sepehrband/ABTIN/archive/master.zip). 
 
 ### 1. NODDI
@@ -13,7 +13,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 - **NODDI MATLAB toolbox:** follow the instruction [here](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab).
 - **AMICO:** follow the instruction [here](https://github.com/daducci/AMICO).
 
-### 2. Setup the paths in MATLAB
+### 2. Setup the paths
 - **Add the path to this repostitory.**
 
 MATLAB example code:
