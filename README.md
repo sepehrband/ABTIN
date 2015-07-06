@@ -7,20 +7,20 @@ Absolute Tissue density from NODDI (ABTIN) is described here:
 ## Implementation
 Download ABTIN's [reposiotry](https://github.com/sepehrband/ABTIN/archive/master.zip). 
 
-### NODDI
+### 1. NODDI
 In order to obtain ABTIN's measures, first the NODDI model should be fitted to the diffusion-weighted MR data.  To fit NODDI to your data, we suggest one of the following routines:
 
 - **NODDI MATLAB toolbox:** follow the instruction [here](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab).
 - **AMICO:** follow the instruction [here](https://github.com/daducci/AMICO).
 
-### Setup the paths in MATLAB
+### 2. Setup the paths in MATLAB
 - **Add the path to this repostitory.**
 
 MATLAB example code:
 
 `addpath(genpath('~/code/matlab/ABTIN/'))`
 
-### Initialization 
+### 3. Initialization 
 - **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
 - **Define the the path the mask**
 - **Define the the path to the output folder of ABITN**
@@ -33,8 +33,8 @@ MATLAB example code:
 
 `OutputFolder = '~/data/abtin/Sub-01';`
 
-### ABTIN
+### 4. ABTIN
 `ABTIN(InputFolder,Mask,OutputFolder)`
 
-## Script
+### Script
 "**Demo.m** includes the above steps."
