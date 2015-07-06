@@ -18,7 +18,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 
 For example:
 
-`addpath(genpath('~/code/matlab/ABTIN/'))`
+`addpath(genpath('~/code/matlab/ABTIN-master/'))`
 
 ### 3. Initialization 
 - **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
