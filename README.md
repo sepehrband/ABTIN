@@ -22,13 +22,17 @@ e.g.
 
 ### Initialization 
 **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
+
 **Define the the path the mask**
+
 **Define the the path to the output folder of ABITN**
 
 e.g.
 
 `InputFolder='~/data/noddi/Sub-01';`
+
 `Mask = '~/data/noddi/Sub-01/mask.nii';`
+
 `OutputFolder = '~/data/abtin/Sub-01';`
 
 ### ABTIN
