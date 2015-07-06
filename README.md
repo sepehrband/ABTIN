@@ -13,7 +13,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 - **NODDI MATLAB toolbox:** follow the instruction [here](http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.NODDImatlab).
 - **AMICO:** follow the instruction [here](https://github.com/daducci/AMICO).
 
-### 2. Setup the paths
+### 2. Setup the path
 - **Add the path to this repostitory.**
 
 MATLAB example code:
