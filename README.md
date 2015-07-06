@@ -1,6 +1,6 @@
 # ABTIN
 Absolute Tissue density from NODDI (ABTIN) is described here:
->**Brain Tissue Compartment Density EstimatedUsing Diffusion-Weighted MRI Yields TissueParameters Consistent With Histology**
+>**Brain Tissue Compartment Density Estimated Using Diffusion-Weighted MRI Yields Tissue Parameters Consistent With Histology**
 >*Farshid Sepehrband, Kristi A. Clark, Jeremy F.P. Ullmann, Nyoman D. Kurniawan, Gayeshika Leanage, David C. Reutens, and Zhengyi Yang*
 >, Humman Brain Mapping, 2015. DOI: 10.1002/hbm.22872
 
@@ -16,7 +16,7 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 ### 2. Setup the path
 - **Add the path to this repostitory.**
 
-MATLAB example code:
+For example:
 
 `addpath(genpath('~/code/matlab/ABTIN/'))`
 
@@ -25,7 +25,7 @@ MATLAB example code:
 - **Define the the path the mask**
 - **Define the the path to the output folder of ABITN**
 
-MATLAB example code:
+For example:
 
 `InputFolder='~/data/noddi/Sub-01';`
 
