@@ -15,14 +15,18 @@ In order to obtain ABTIN's measures, first the NODDI model should be fitted to t
 
 ### Setup the paths in MATLAB
 - **Add the path to this repostitory.**
-**e.g.**
+
+MATLAB example code:
+
 `addpath(genpath('~/code/matlab/ABTIN/'))`
 
 ### Initialization 
 - **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
 - **Define the the path the mask**
 - **Define the the path to the output folder of ABITN**
-**e.g.**
+
+MATLAB example code:
+
 `InputFolder='~/data/noddi/Sub-01';`
 
 `Mask = '~/data/noddi/Sub-01/mask.nii';`
