@@ -36,5 +36,7 @@ MATLAB example code:
 ### 4. ABTIN
 `ABTIN(InputFolder,Mask,OutputFolder)`
 
+At this stage, ABTIN's outputs are stored in the output folder.
+
 ### Script
 "**Demo.m** includes the above steps."
