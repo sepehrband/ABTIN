@@ -22,7 +22,7 @@ For example:
 
 ### 3. Initialization 
 - **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
-- **Define the the path the mask**
+- **Define the the path to the mask**
 - **Define the the path to the output folder of ABITN**
 
 For example:
