@@ -22,19 +22,16 @@ For example:
 
 ### 3. Initialization 
 - **Define the the path to the input folder of ABITN (folder contaning NODDI outputs)**
-- **Define the the path to the mask**
 - **Define the the path to the output folder of ABITN**
 
 For example:
 
 `InputFolder='~/data/noddi/Sub-01';`
 
-`Mask = '~/data/noddi/Sub-01/mask.nii';`
-
 `OutputFolder = '~/data/abtin/Sub-01';`
 
 ### 4. ABTIN
-`ABTIN(InputFolder,Mask,OutputFolder)`
+`ABTIN(InputFolder,OutputFolder)`
 
 At this stage, ABTIN's outputs are stored in the output folder.
 
