@@ -18,7 +18,6 @@ addpath('~/path_to_folder_containing_ABTIN.m')
 
 %% Run ABTIN
 InputFolder  = '~/path_to_folder_containing_noddi_outputs';
-Mask         = '~/path_to_mask.nii'; % e.g. Mask = '~/home/noddi/mask.nii';
 OutputFolder = '~/path_to_folder_containing_abtin_outputs';
 
-ABTIN(InputFolder,Mask,OutputFolder)
+ABTIN(InputFolder,OutputFolder)
