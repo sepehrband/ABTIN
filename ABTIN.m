@@ -85,7 +85,7 @@ for i = 1:length(Files)
     Vcsf = reshape(Vcsf,size(Fiso,1),size(Fiso,2),size(Fiso,3));
     
     processTime = cputime - startTime;
-    sprintf(['CPU time to process ' Name ' = %5.5f second'], processTime)
+    sprintf(['CPU time to process ' Name ' = %5.5f seconds'], processTime)
     
     %% Write Stuff
     
